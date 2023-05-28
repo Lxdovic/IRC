@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 0.6em;
+  background: #1e2329;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1e2329;
+}
+
+audio {
+  width: 400px;
+  height: 3rem;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #1e2329;
+  border: none;
+}
+
+audio::-webkit-media-controls-current-time-display {
+  color: #fff;
+  text-shadow: none;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+  color: #fff;
+  text-shadow: none;
+}
+
+audio::-webkit-media-controls-mute-button {
+  color-scheme: light dark;
+}
+
+.recorded-audio::-webkit-media-controls-mute-button {
+  margin-right: 3em;
+}
+
+audio::-webkit-media-controls-play-button {
+  color-scheme: light dark;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  color-scheme: light dark;
+}
+
+audio::-webkit-media-controls-timeline {
+  color-scheme: light dark;
+}
+
+audio::-webkit-media-controls-seek-back-button {
+  color-scheme: light dark;
+}
+audio::-webkit-media-controls-enclosure {
+  background-color: transparent;
+  border-radius: 5px;
+}

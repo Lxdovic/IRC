@@ -1,0 +1,7 @@
+node_modules
+.env
+.idea
+/server/uploads/images/*
+/server/uploads/audios/*
+!/server/uploads/images/.gitkeep
+!/server/uploads/audios/.gitkeep
